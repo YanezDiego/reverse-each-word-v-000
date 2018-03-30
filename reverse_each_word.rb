@@ -9,7 +9,6 @@ def reverse_each_word (sentence)
 			new_string += word[end_loop] #Reversing every letter of each word
 		end
 		new_sentence << new_string # appending every word to an new Array
-		# or you could just do this: new_sentence << reverse_whole_string(word)
 	end
 	new_sentence.join(' ')
 
