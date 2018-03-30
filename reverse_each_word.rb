@@ -13,3 +13,10 @@ def reverse_each_word (sentence)
 	new_sentence.join(' ')
 
 end
+
+def reverse_each_word (sentence)
+  reverse_array = sentence.split(" ").collect do |word|
+    word.reverse
+  end
+  word.join(" ")
+end
